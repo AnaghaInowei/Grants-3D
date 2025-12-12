@@ -1,10 +1,15 @@
 import NavigationMenu from "./Navigation"
+import ContactBtn from "./Contactme-Btn"
 
 export default function Navber() {
      return(
         <>
             <p>Grant</p>
-            <NavigationMenu />             
+            <div>
+                <NavigationMenu />
+                <ContactBtn />
+            </div>
+                         
         </>
      )
 }
